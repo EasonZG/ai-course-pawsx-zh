@@ -1,0 +1,114 @@
+{
+  "accuracy": 0.57,
+  "macro_f1": 0.4341360705355968,
+  "per_label": {
+    "different": {
+      "precision": 0.5520833333333334,
+      "recall": 1.0,
+      "f1": 0.7114093959731543,
+      "support": 53
+    },
+    "paraphrase": {
+      "precision": 1.0,
+      "recall": 0.0851063829787234,
+      "f1": 0.1568627450980392,
+      "support": 47
+    }
+  },
+  "confusion": {
+    "rows_gold_cols_pred": [
+      [
+        53,
+        0
+      ],
+      [
+        43,
+        4
+      ]
+    ],
+    "row_order": [
+      "different",
+      "paraphrase"
+    ],
+    "col_order": [
+      "different",
+      "paraphrase"
+    ]
+  },
+  "split": "dev100.jsonl",
+  "n": 100,
+  "covered": 100,
+  "coverage": 1.0,
+  "missing": 0,
+  "duplicate_ids": 0,
+  "invalid_or_duplicate": 0,
+  "valid_output_rate": 1.0,
+  "accuracy_ci95": [
+    0.48,
+    0.66
+  ],
+  "platform_scoring": {
+    "total": 100,
+    "prediction_records": 100,
+    "missing": 0,
+    "duplicate_ids": 0,
+    "unknown_records": 0,
+    "accuracy": 0.57,
+    "macro_f1": 0.4341360705355968,
+    "valid_output_count": 100,
+    "valid_output_rate": 1.0
+  },
+  "pass_gate_0.6675": false,
+  "errors": [
+    {
+      "item_id": "paws-zh-validation-1143",
+      "gold": 1,
+      "pred": 0,
+      "text_pair": [
+        "圣公会传统中新教和天主教倾向之间的差异程度通常在特定圣公会教会和整个圣公会社区都存在争议。",
+        "圣公会传统中新教倾向与天主教倾向的区分度一直是特定圣公会教会内以及整个圣公会中争论不休的问题。"
+      ],
+      "status": "ok"
+    },
+    {
+      "item_id": "paws-zh-validation-1217",
+      "gold": 1,
+      "pred": 0,
+      "text_pair": [
+        "在前往法国和土耳其的俱乐部之前，阿格博曾为南斯拉夫联邦共和国的贝尔格莱德拉德足球俱乐部和奥比利奇足球俱乐部效力。",
+        "在前往法国和土耳其的俱乐部之前，阿格博曾为南斯拉夫联盟共和国的贝尔格莱德拉德足球俱乐部和奥比利奇足球俱乐部效力。"
+      ],
+      "status": "ok"
+    },
+    {
+      "item_id": "paws-zh-validation-1218",
+      "gold": 1,
+      "pred": 0,
+      "text_pair": [
+        "小组的另一位成员是托马斯·吉法德爵士，他的姐姐嫁给乔治·思罗克莫顿。",
+        "小组的另一位成员是托马斯•吉法德爵士，他的姐妹乔治•罗克莫顿已结婚。"
+      ],
+      "status": "ok"
+    },
+    {
+      "item_id": "paws-zh-validation-1320",
+      "gold": 1,
+      "pred": 0,
+      "text_pair": [
+        "2017 年 8 月，阿卢里·查克拉帕尼也加入该团队，扮演制片人普拉喀什·拉吉一角。",
+        "Aluri Chakrapani 也于 2017 年 8 月加入团队，据称将扮演制作人 Prakash Raj 的角色。"
+      ],
+      "status": "ok"
+    },
+    {
+      "item_id": "paws-zh-validation-1498",
+      "gold": 1,
+      "pred": 0,
+      "text_pair": [
+        "彼得·杜康 (1903-1967) 是早期的爵士乐簧管演奏家，活跃在美国新奥尔良爵士音乐界。",
+        "彼得·杜康 (1903-1967) 是早期的爵士乐簧管演奏家，活跃在新奥尔良的美式爵士乐界。"
+      ],
+      "status": "ok"
+    }
+  ]
+}

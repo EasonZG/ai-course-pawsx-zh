@@ -1,0 +1,164 @@
+{
+  "dataset": "pawsx_zh",
+  "data_dir": "D:\\homeworks\\人工智能\\实验\\pawsx_zh\\T4-PAR-中文改写语义一致性\\data",
+  "splits": {
+    "train": {
+      "file": "data/train.jsonl",
+      "sha256": "e8b99ef73106d273f1ff7cbd7af7400f08c1ac0118fd73be2ed17c6a2708f105",
+      "n": 44898,
+      "n_with_label": 44898,
+      "label_counts": {
+        "0": 24409,
+        "1": 20489
+      },
+      "label_share": {
+        "0": 0.5437,
+        "1": 0.4563
+      },
+      "id_unique": true,
+      "char_len": {
+        "mean": 47.11,
+        "median": 44.0,
+        "p90": 72,
+        "p95": 83,
+        "max": 149,
+        "share_le_64": 0.8293,
+        "share_le_96": 0.9837,
+        "share_le_128": 0.9995
+      }
+    },
+    "validation": {
+      "file": "data/validation.jsonl",
+      "sha256": "2178383df9239baffc2be29d911f806008cc71e418c3f6cf16c0844fdaf8506a",
+      "n": 1946,
+      "n_with_label": 1946,
+      "label_counts": {
+        "0": 1105,
+        "1": 841
+      },
+      "label_share": {
+        "0": 0.5678,
+        "1": 0.4322
+      },
+      "id_unique": true,
+      "char_len": {
+        "mean": 44.55,
+        "median": 43.0,
+        "p90": 66,
+        "p95": 74,
+        "max": 120,
+        "share_le_64": 0.8844,
+        "share_le_96": 0.9964,
+        "share_le_128": 1.0
+      }
+    },
+    "dev100": {
+      "file": "data/dev100.jsonl",
+      "sha256": "00708c6fbe42bf599671da16c9ad0836cbeef1c58ac54984558449945235569b",
+      "n": 100,
+      "n_with_label": 100,
+      "label_counts": {
+        "0": 53,
+        "1": 47
+      },
+      "label_share": {
+        "0": 0.53,
+        "1": 0.47
+      },
+      "id_unique": true,
+      "char_len": {
+        "mean": 44.91,
+        "median": 44.0,
+        "p90": 65,
+        "p95": 78,
+        "max": 89,
+        "share_le_64": 0.89,
+        "share_le_96": 1.0,
+        "share_le_128": 1.0
+      }
+    },
+    "test_inputs": {
+      "file": "data/test_inputs.jsonl",
+      "sha256": "bce101deff1e5c0afc91fd43f2214131c5e375add6c8c1f8eedf841417f32a2e",
+      "n": 1965,
+      "n_with_label": 0,
+      "label_counts": {},
+      "label_share": {},
+      "id_unique": true,
+      "char_len": {
+        "mean": 45.49,
+        "median": 44,
+        "p90": 66,
+        "p95": 74,
+        "max": 120,
+        "share_le_64": 0.8845,
+        "share_le_96": 0.9949,
+        "share_le_128": 1.0
+      }
+    },
+    "compare50": {
+      "file": "data/compare50.jsonl",
+      "sha256": "be16b7511e686fd35a9576115b6d0977bc8d055abe5b9e1f60733fcc9ee4e3ba",
+      "n": 50,
+      "n_with_label": 0,
+      "label_counts": {},
+      "label_share": {},
+      "id_unique": true,
+      "char_len": {
+        "mean": 39.96,
+        "median": 38.5,
+        "p90": 58,
+        "p95": 64,
+        "max": 86,
+        "share_le_64": 0.96,
+        "share_le_96": 1.0,
+        "share_le_128": 1.0
+      }
+    }
+  },
+  "id_relations": {
+    "dev100_subset_of_validation": true,
+    "dev100_overlap_validation": 100,
+    "compare50_subset_of_test_inputs": true,
+    "compare50_overlap_test_inputs": 50
+  },
+  "overlap": [
+    {
+      "a": "train",
+      "b": "validation",
+      "shared_sentences": 0,
+      "b_sentences": 3536,
+      "shared_sentence_share_of_b": 0.0,
+      "shared_ordered_pairs": 0,
+      "shared_ordered_pair_share_of_b": 0.0,
+      "shared_unordered_pairs": 0,
+      "b_rows_both_sentences_in_a": 0,
+      "b_rows_both_sentences_share": 0.0
+    },
+    {
+      "a": "train",
+      "b": "test_inputs",
+      "shared_sentences": 0,
+      "b_sentences": 3590,
+      "shared_sentence_share_of_b": 0.0,
+      "shared_ordered_pairs": 0,
+      "shared_ordered_pair_share_of_b": 0.0,
+      "shared_unordered_pairs": 0,
+      "b_rows_both_sentences_in_a": 0,
+      "b_rows_both_sentences_share": 0.0
+    },
+    {
+      "a": "validation",
+      "b": "test_inputs",
+      "shared_sentences": 404,
+      "b_sentences": 3590,
+      "shared_sentence_share_of_b": 0.1125,
+      "shared_ordered_pairs": 0,
+      "shared_ordered_pair_share_of_b": 0.0,
+      "shared_unordered_pairs": 0,
+      "b_rows_both_sentences_in_a": 45,
+      "b_rows_both_sentences_share": 0.0229
+    }
+  ],
+  "train_duplicate_ordered_pairs": 0
+}

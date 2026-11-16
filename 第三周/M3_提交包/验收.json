@@ -1,0 +1,21 @@
+{
+  "status": "calibrated —— 由 S2 实测确定（scripts/calibrate_gate.py）",
+  "min": {
+    "accuracy": 0.6675
+  },
+  "provisional_min": {
+    "accuracy": 0.68
+  },
+  "slice": {
+    "size": 50,
+    "which": "compare（三轨共用切片）",
+    "coverage": {
+      "distinct_labels_in_slice": 2,
+      "total_labels": 2,
+      "macro_f1_ceiling": 1.0
+    },
+    "source_file": "items.test.jsonl",
+    "rows_sha256": "60f17ec21d83231d"
+  },
+  "note": "min 为空表示尚未校准，自检里只作参考；正式门禁由教师试做后填。"
+}

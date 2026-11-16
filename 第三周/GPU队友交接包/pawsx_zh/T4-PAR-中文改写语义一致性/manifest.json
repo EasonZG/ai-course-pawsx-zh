@@ -1,0 +1,19 @@
+{
+  "schema": "oj.manifest/1",
+  "group": "g00",
+  "module": "M3",
+  "task_id": "T4-PAR-选一个子题编号",
+  "entry": "oj/run.py",
+  "methods": [
+    "trad",
+    "llm",
+    "agent"
+  ],
+  "splits": [
+    "dev",
+    "test"
+  ],
+  "seed": 0,
+  "dataset": "pawsx_zh",
+  "focus": "改成一个子题编号，例如 ⑦"
+}

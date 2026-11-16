@@ -1,0 +1,74 @@
+{
+  "schema": "pawsx-zh.scoring-rules/1",
+  "dataset": "pawsx_zh",
+  "dataset_version": "course-v1-20261028",
+  "task": "single_label",
+  "labels": ["different", "paraphrase"],
+  "label_order_note": "0=different（语义不同），1=paraphrase（语义一致/改写保持原意）",
+  "input": {
+    "item_id": "唯一 ID，必须原样回填",
+    "task": "single_label",
+    "text_pair": "[句1, 句2]"
+  },
+  "output": {
+    "required_keys": ["item_id", "output", "status", "latency_ms", "usage"],
+    "output_shape": {"label": "整数 0 或 1"},
+    "accepted_value_forms": ["整数 0/1", "整数值浮点 0.0/1.0", "数字字符串 \"0\"/\"1\""],
+    "rejected_value_forms": ["标签名 different/paraphrase", "布尔值 true/false", "越界整数", "列表/多标签", "空值/无法解析"],
+    "status_values": ["ok", "fail", "timeout", "error"],
+    "one_row_per_item": true
+  },
+  "correctness": {
+    "rule": "单标签 exact match：预测整数等于 gold 的 target.label 记 1 分，否则记 0 分。",
+    "multi_answer": "每题只接受一个 label；输出多个答案或列表一律判非法（记 0 分），不按“答对其中一个”给分。",
+    "missing_row": "缺行留在分母里，记 0 分；覆盖率必须 100%。",
+    "duplicate_item_id": "同一 item_id 出现多次时整条判无效（不是最后一条覆盖前面），记 0 分。",
+    "unknown_item_id": "不在 gold 里的 item_id 被忽略，不进入分母。",
+    "invalid_format": "非法标签、越界、标签名、空值都按 -999 哨兵参与计算，等价于答错，且不缩小分母。"
+  },
+  "metrics": {
+    "primary": "accuracy",
+    "primary_definition": "预测正确条数 / gold 总条数（分母恒为 gold 条数，不因缺行或非法输出缩小）",
+    "secondary": ["macro_f1", "per_label_precision_recall_f1", "confusion_matrix", "coverage", "valid_output_rate"],
+    "why_secondary": "两类比例约 57:43；accuracy 可能掩盖“全猜多数类”的退化。macro-F1 与 paraphrase 的 recall 用来发现这种退化，但不替代 accuracy 门禁。",
+    "confidence_interval": {
+      "method": "bootstrap percentile",
+      "resamples": 1000,
+      "seed": 0,
+      "unit": "句对（item）",
+      "interval": "95%",
+      "paired_comparison": "比较两种方法时对同一批 item 做配对重采样，报告 Δaccuracy 的 95% CI；区间跨 0 则视为无显著差异。"
+    },
+    "gate": {
+      "metric": "accuracy",
+      "threshold": 0.6675,
+      "split": "平台冻结 test 400",
+      "coverage_required": 1.0
+    },
+    "minimum_meaningful_difference_pp": 5.0,
+    "small_slice_note": "compare50（50 条）只能可靠检出约 12pp 以上的差异；其上小于 12pp 的差异不得作为结论。"
+  },
+  "splits": {
+    "train": {"file": "data/train.jsonl", "role": "训练", "used_for_selection": true},
+    "dev1200": {"file": "data/splits/dev1200.jsonl", "role": "开发：调阈值、早停、提示词/消融选择", "used_for_selection": true},
+    "dev100": {"file": "data/dev100.jsonl", "role": "冒烟自检（dev1200 的子集，可反复用）", "used_for_selection": true},
+    "holdout746": {"file": "data/splits/holdout746.jsonl", "role": "本地留出验收：开发期不读标签、不参与任何选择", "used_for_selection": false},
+    "test_inputs": {"file": "data/test_inputs.jsonl", "role": "平台 test 400 的来源；本地无标签、不使用", "used_for_selection": false},
+    "compare50": {"file": "data/compare50.jsonl", "role": "三轨同数据横比；本地无标签、不使用", "used_for_selection": false}
+  },
+  "leakage_rules": [
+    "test_inputs / compare50 的标签不下载、不推断，不写入训练集、检索库或提示词。",
+    "holdout746 的标签只通过 oj/eval_split.py 读取；本周仅用于一次基准冒烟，M3 起只在最终评测时读一次，不逐条看错例后改方法。",
+    "dev100 是冒烟集，不是独立泛化证据；不得用 dev100 的分数替代 holdout/test 结论。",
+    "validation 与 test_inputs 存在 404 个共享句子（11.2%），45 条 test 句对的两句都出现在 validation；不得把这种句子级重叠当作特征，结论只以平台 test 400 为准。",
+    "阈值、早停、提示词、超参数只能在 train + dev1200 上选择。"
+  ],
+  "failure_taxonomy": [
+    "false_negative：gold=1 判成 0（漏判改写一致）",
+    "false_positive：gold=0 判成 1（误判语义不同为一致）",
+    "format_invalid：标签名/越界/空值/多答案",
+    "missing：缺行",
+    "duplicate：item_id 重复",
+    "timeout_error：status 为 timeout/error"
+  ]
+}

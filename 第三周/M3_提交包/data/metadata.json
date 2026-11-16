@@ -1,0 +1,28 @@
+{
+  "title": "中文语义匹配",
+  "language": "zh",
+  "task": "single_label",
+  "labels": [
+    "different",
+    "paraphrase"
+  ],
+  "source": "https://github.com/google-research-datasets/paws/tree/master/pawsx",
+  "license_status": "Explicit permission for any purpose in original LICENSE; retain attribution and notice",
+  "notes": [
+    "Training sentences are machine translated; validation/test are human translated.",
+    "Individual sentences can overlap between validation and test even if pairs do not."
+  ],
+  "removed_NS_placeholders": {
+    "train": 0,
+    "validation": 16,
+    "test": 25
+  },
+  "dataset_id": "pawsx_zh",
+  "counts": {
+    "test": 1965,
+    "validation": 1946,
+    "train": 44898
+  },
+  "version": "course-v1-20261028",
+  "comparison_subset_size": 100
+}

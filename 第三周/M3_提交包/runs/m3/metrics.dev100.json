@@ -1,0 +1,114 @@
+{
+  "accuracy": 0.71,
+  "macro_f1": 0.69662098545873,
+  "per_label": {
+    "different": {
+      "precision": 0.6764705882352942,
+      "recall": 0.8679245283018868,
+      "f1": 0.7603305785123967,
+      "support": 53
+    },
+    "paraphrase": {
+      "precision": 0.78125,
+      "recall": 0.5319148936170213,
+      "f1": 0.6329113924050633,
+      "support": 47
+    }
+  },
+  "confusion": {
+    "rows_gold_cols_pred": [
+      [
+        46,
+        7
+      ],
+      [
+        22,
+        25
+      ]
+    ],
+    "row_order": [
+      "different",
+      "paraphrase"
+    ],
+    "col_order": [
+      "different",
+      "paraphrase"
+    ]
+  },
+  "split": "dev100.jsonl",
+  "n": 100,
+  "covered": 100,
+  "coverage": 1.0,
+  "missing": 0,
+  "duplicate_ids": 0,
+  "invalid_or_duplicate": 0,
+  "valid_output_rate": 1.0,
+  "accuracy_ci95": [
+    0.62,
+    0.79
+  ],
+  "platform_scoring": {
+    "total": 100,
+    "prediction_records": 100,
+    "missing": 0,
+    "duplicate_ids": 0,
+    "unknown_records": 0,
+    "accuracy": 0.71,
+    "macro_f1": 0.69662098545873,
+    "valid_output_count": 100,
+    "valid_output_rate": 1.0
+  },
+  "pass_gate_0.6675": true,
+  "errors": [
+    {
+      "item_id": "paws-zh-validation-1320",
+      "gold": 1,
+      "pred": 0,
+      "text_pair": [
+        "2017 年 8 月，阿卢里·查克拉帕尼也加入该团队，扮演制片人普拉喀什·拉吉一角。",
+        "Aluri Chakrapani 也于 2017 年 8 月加入团队，据称将扮演制作人 Prakash Raj 的角色。"
+      ],
+      "status": "ok"
+    },
+    {
+      "item_id": "paws-zh-validation-1809",
+      "gold": 0,
+      "pred": 1,
+      "text_pair": [
+        "尽管斯洛文尼亚的联合式橄榄球是该运动在前南斯拉夫的主要中心，但克罗地亚仍在举办众多橄榄球比赛。",
+        "尽管斯洛文尼亚的联合式橄榄球是该运动在前南斯拉夫的主要中心，克罗地亚仍会举办相当多的橄榄球比赛。"
+      ],
+      "status": "ok"
+    },
+    {
+      "item_id": "paws-zh-validation-1978",
+      "gold": 0,
+      "pred": 1,
+      "text_pair": [
+        "之后，他相继前往瑞士和意大利，并在那里遇到了雪莱和拜伦。",
+        "后来，他先后前往瑞士和意大利，并遇到了雪莱和拜伦。"
+      ],
+      "status": "ok"
+    },
+    {
+      "item_id": "paws-zh-validation-2478",
+      "gold": 0,
+      "pred": 1,
+      "text_pair": [
+        "佛蒙特在北面与米查姆接壤，在西面与鲁纳沃丁和森林山接壤，在南面与南佛蒙特接壤，在东面与万提纳和灵伍德接壤。",
+        "佛蒙特南与米查姆北部接壤，西面与鲁纳沃丁和森林山接壤，南面与佛蒙特接壤，东面与旺加拉塔和灵伍德接壤。"
+      ],
+      "status": "ok"
+    },
+    {
+      "item_id": "paws-zh-validation-2593",
+      "gold": 1,
+      "pred": 0,
+      "text_pair": [
+        "魏玛共和国初期有一些反对准军事犹太人的暴力行为，这种行为由德国自由军团领导。",
+        "在魏玛共和国的早期年代，发生了一场由德国自由军团领导的针对犹太人准军事部队的暴乱。"
+      ],
+      "status": "ok"
+    }
+  ]
+}

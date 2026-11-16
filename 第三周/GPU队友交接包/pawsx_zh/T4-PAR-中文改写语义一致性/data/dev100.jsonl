@@ -1,0 +1,100 @@
+{"item_id": "paws-zh-validation-1143", "task": "single_label", "text_pair": ["圣公会传统中新教和天主教倾向之间的差异程度通常在特定圣公会教会和整个圣公会社区都存在争议。", "圣公会传统中新教倾向与天主教倾向的区分度一直是特定圣公会教会内以及整个圣公会中争论不休的问题。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-1217", "task": "single_label", "text_pair": ["在前往法国和土耳其的俱乐部之前，阿格博曾为南斯拉夫联邦共和国的贝尔格莱德拉德足球俱乐部和奥比利奇足球俱乐部效力。", "在前往法国和土耳其的俱乐部之前，阿格博曾为南斯拉夫联盟共和国的贝尔格莱德拉德足球俱乐部和奥比利奇足球俱乐部效力。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-1218", "task": "single_label", "text_pair": ["小组的另一位成员是托马斯·吉法德爵士，他的姐姐嫁给乔治·思罗克莫顿。", "小组的另一位成员是托马斯•吉法德爵士，他的姐妹乔治•罗克莫顿已结婚。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-1319", "task": "single_label", "text_pair": ["《AleX》是一部意大利电视连续剧。该剧由乔尔乔·舍特勒尔、古列尔莫·杜科利和阿尔弗雷多·卡斯泰利制作，并由 Videotime 编剧。", "意大利电视连续剧《Alex》由阿尔弗雷多·卡斯特里、古格列尔莫·杜科利和希奥尔希奥·斯科特勒担任编剧，并由 videotime 制作。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-1320", "task": "single_label", "text_pair": ["2017 年 8 月，阿卢里·查克拉帕尼也加入该团队，扮演制片人普拉喀什·拉吉一角。", "Aluri Chakrapani 也于 2017 年 8 月加入团队，据称将扮演制作人 Prakash Raj 的角色。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-1403", "task": "single_label", "text_pair": ["1918 年 9 月 22 日，第一封无线电报从澳大利亚发往斯洛当尼亚。", "1918 年 9 月 22 日，第一条无线电报消息从斯诺登尼亚发往澳大利亚。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-1470", "task": "single_label", "text_pair": ["该影片在商业上取得巨大成功，也是塞尔乔·索利马政治元素较多的电影之一，但不如该导演早期的意大利式西部片成功。", "该电影在商业上取得巨大成功，是塞尔乔·索利马更多成功电影之一，但政治元素比该导演之前的意大利式西部片要少。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-1498", "task": "single_label", "text_pair": ["彼得·杜康 (1903-1967) 是早期的爵士乐簧管演奏家，活跃在美国新奥尔良爵士音乐界。", "彼得·杜康 (1903-1967) 是早期的爵士乐簧管演奏家，活跃在新奥尔良的美式爵士乐界。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-1673", "task": "single_label", "text_pair": ["它是著名的朝圣中心，距离达尔瓦德 78 公里，贝尔高姆 37 公里。", "它是著名的朝圣中心，距离贝尔高姆 78 公里，距离达尔瓦德 37 公里。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-1728", "task": "single_label", "text_pair": ["他是克拉伦斯·佩吉特勋爵、阿尔弗雷德·佩吉特勋爵以及乔治·佩吉特勋爵同父异母的兄弟。", "他是克拉伦斯·佩吉特勋爵、阿尔弗雷德·佩吉特勋爵和乔治·佩吉特勋爵的同父异母兄弟。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-1784", "task": "single_label", "text_pair": ["根据季节不同，北美洲的卷心菜种群会从加拿大迁移至墨西哥。", "根据季节不同，北美洲的粉纹夜蛾种群会从墨西哥迁徙至加拿大。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-1793", "task": "single_label", "text_pair": ["1977 年，罗布·泰勒与巴伯前往苏格兰和挪威攀登瀑布。", "1977 年，巴伯与罗伯·泰勒前往苏格兰和挪威攀登瀑布。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-1797", "task": "single_label", "text_pair": ["波利尼西亚尼奥环礁位于法国，以格雷格·阿列克谢·格雷格命名。", "法属波利尼西亚的一个环礁以阿列克谢·格雷格格雷格的名字命名。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-1809", "task": "single_label", "text_pair": ["尽管斯洛文尼亚的联合式橄榄球是该运动在前南斯拉夫的主要中心，但克罗地亚仍在举办众多橄榄球比赛。", "尽管斯洛文尼亚的联合式橄榄球是该运动在前南斯拉夫的主要中心，克罗地亚仍会举办相当多的橄榄球比赛。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-1828", "task": "single_label", "text_pair": ["皮尔逊对种族和政治平等主义的严肃立场同样体现在对马克思主义和社会主义的一贯反对。", "皮尔森十分激进，他反对严格平均主义。他同样反对马克思主义和社会主义，这也政治立场印证了他的政治立场。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-1966", "task": "single_label", "text_pair": ["朗出生于澳大利亚，年轻时移居以色列，并于 1961 年定居于此。", "朗出生于以色列，年轻时移居澳大利亚，并于 1961 年在此定居。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-1978", "task": "single_label", "text_pair": ["之后，他相继前往瑞士和意大利，并在那里遇到了雪莱和拜伦。", "后来，他先后前往瑞士和意大利，并遇到了雪莱和拜伦。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-2013", "task": "single_label", "text_pair": ["他于 1891 年 9 月 19 日在田纳西州加拉廷去世，并在加拉廷收到了一个共济会。", "邦廷于 1891 年 9 月 19 日在田纳西州的加拉廷去世。 他在加拉廷接受了共济会的葬礼。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-2103", "task": "single_label", "text_pair": ["在芬兰境内获得独立前，俄罗斯帝国是一个自治的大公国。", "在独立前，芬兰是俄罗斯帝国境内的自治大公国。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-2196", "task": "single_label", "text_pair": ["Houston Main Building (HMB) 之前被称为保诚大厦，是德克萨斯州休斯顿德克萨斯医疗中心的一栋摩天大楼。", "保诚大厦 (HMB) 的前身为 Houston Main Building，是德克萨斯州休斯顿德克萨斯医疗中心的一栋摩天大楼。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-2478", "task": "single_label", "text_pair": ["佛蒙特在北面与米查姆接壤，在西面与鲁纳沃丁和森林山接壤，在南面与南佛蒙特接壤，在东面与万提纳和灵伍德接壤。", "佛蒙特南与米查姆北部接壤，西面与鲁纳沃丁和森林山接壤，南面与佛蒙特接壤，东面与旺加拉塔和灵伍德接壤。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-2582", "task": "single_label", "text_pair": ["比利·金·科尼希以 6 - 2 和 6 - 1 击败罗莎琳·费尔班克", "比莉·简·金以 6-2 和 6-1 的成绩击败罗萨琳·费尔班克"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-2593", "task": "single_label", "text_pair": ["魏玛共和国初期有一些反对准军事犹太人的暴力行为，这种行为由德国自由军团领导。", "在魏玛共和国的早期年代，发生了一场由德国自由军团领导的针对犹太人准军事部队的暴乱。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-2807", "task": "single_label", "text_pair": ["乔纳森·达斯涅雷斯·德伟吉以 7-6 和 7-6 的比分击败安德烈·库兹涅佐夫而赢得决赛。", "安德烈·库兹涅佐夫以 7-6 和 7-6 击败乔纳森·达斯尼雷斯·德维吉而赢得决赛。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-2841", "task": "single_label", "text_pair": ["皮特·桑普拉斯在多场决赛中以 6-7、6-4 和 7-6 的成绩战胜蒂姆·亨曼。", "蒂姆蒂姆·亨曼在决赛中以 6-7、6-4 和 7-6 战胜皮特·桑普拉斯。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-2926", "task": "single_label", "text_pair": ["隽语是指短诗中聪明的转折，或者一种简洁而有趣的叙述。", "隽语是一首简洁而诙谐的诗，包含一个聪明的转折或一句简短的陈述。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-2969", "task": "single_label", "text_pair": ["《Tres vidas distintas》是 1969 年的一部墨西哥浪漫电视肥皂剧，由 Televisa 制作，最初由 Telesistema Mexicano 传播。", "vidas distintas 是墨西哥的浪漫电视肥皂剧，由 Televisa 集团于 1969 年制作，最初由 Telesistema Mexicano 传播。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-308", "task": "single_label", "text_pair": ["他是克拉伦斯·佩吉特上将、阿尔弗雷德·佩吉特上将和乔治·佩吉特上将的异姓兄弟。", "他是阿尔弗雷德·佩吉特勋爵、乔治·佩吉特勋爵和克拉伦斯·佩吉特勋爵同父异母的兄弟。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-3115", "task": "single_label", "text_pair": ["2006 年 9 月 14 日，华盛顿奇才队签下朗并于 2017 年 7 月与该球员解约。", "2006 年 9 月 14 日，华盛顿奇才签下朗。2017 年 7 月，奇才与朗解约。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-3274", "task": "single_label", "text_pair": ["韦斯特莱克是一座位于美国路易斯安那州的城市，坐落在卡尔克苏教区西部，属于莱克查尔斯都会统计区的一部分。", "韦斯特莱克是一座位于美国路易斯安那州的城市，坐落在卡尔克苏县西部，是莱克查尔斯大都会统计区的一部分。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-3360", "task": "single_label", "text_pair": ["1932 年的瑞典冰球锦标赛是瑞典冰球锦标赛的第 11 个赛季，是瑞典的全国冠军赛，由哈马比体育会赢得了冠军。", "1932 年瑞典冰球锦标赛是瑞典冰球锦标赛的第 11 个赛季，这是瑞典的全国冠军赛。Hammarby IF 赢得了冠军。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-3467", "task": "single_label", "text_pair": ["她受到理查德·吉布森和宫廷画家琼·卡莉的赞赏，被认为与彼得·莱利一样成功。", "她被理查德·吉布森和宫廷画家彼得·莱利称赞过，它被视为与琼·卡莉一样成功。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-348", "task": "single_label", "text_pair": ["1291 年，马奥与勃艮第伯爵奥托四世结婚。她娶了三个孩子的母亲，其中包括两个成为法国国王的女孩。", "1291 年，马奥嫁给勃艮第伯爵奥托四世，育有三个子女，其中两位女孩嫁给法国的国王。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-353", "task": "single_label", "text_pair": ["1865 年 8 月 17 日，第 13 纽约志愿骑兵队与第 16 纽约志愿骑兵队合并为第 3 纽约暂编骑兵队。", "1865 年 8 月 17 日，第 3 纽约志愿骑兵队与第 16 纽约志愿骑兵队合并，组成第 13 纽约暂编骑兵队。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-3577", "task": "single_label", "text_pair": ["Dotty 1923 年出生于波士顿，2014 年在格洛斯特去世。", "多迪于 1923 年出生在波士顿，2014 年在格洛斯特逝世。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-3595", "task": "single_label", "text_pair": ["教区教堂建于 1591 年，但随着 18 世纪天主教徒的涌入，形成了一个天主教徒聚集区。", "教区教堂成立于 1591 年，但随着 18 世纪天主教徒的涌入，天主教徒占多数的局面已经形成。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-3911", "task": "single_label", "text_pair": ["但是，当新政府改变政治立场后，Cerdà 的计划被拒，而当地政府举办项目竞赛中 Cerdà 也落选了。", "然而，新政府改变政治立场后，塞尔达的计划被废弃，而在当地政府举办的项目竞赛中，塞尔达也以失败告终。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-3936", "task": "single_label", "text_pair": ["“除了你的一切”是 1945 年的一首歌曲，由唐·乔治作曲、爱灵顿公爵和哈利·詹姆斯作词。", "《除你之外的一切》是 1945 年的一首歌曲，由艾灵顿公爵和哈利·詹姆斯谱曲，由唐·乔治写词。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-398", "task": "single_label", "text_pair": ["纳瓦罗是位于阿根廷布宜诺斯艾利斯省东北部的一个城市。", "纳瓦罗是阿根廷东北部布宜诺斯艾利斯省的一个地区。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-4103", "task": "single_label", "text_pair": ["Boutique @ hs - 大使吉莉·克拉克，澳大利亚女演员特瑞沙·帕默和米卡拉·巴纳斯参加了活动。", "Boutique @ hs 的形象大使泰瑞莎·帕默尔·米盖拉·巴那斯和澳大利亚女演员凯莉·克拉克出席了此次活动。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-4117", "task": "single_label", "text_pair": ["1846 年，植物学家约翰·克里斯汀·格奥尔·莱曼首次对该物种作出正式描述，并被记录在斯特凡·恩德利歇的著作“银杏藻属，Plantae Preissianae”中。", "植物学家斯特凡·恩德利歇于 1846 年对该物种进行正式描述，作为约翰·格奥尔格·克里斯汀·莱曼创作的作品《Irideae Plantae Preissianae》的一部分。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-4181", "task": "single_label", "text_pair": ["霍克（邮编：2614）是贝尔康纳堪培拉区的郊区，位于澳大利亚的澳大利亚首都直辖区内。", "霍克 ( PLZ : 2614 ) 是堪培拉贝尔康纳区的一个郊区，位于澳大利亚首都领地内。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-4188", "task": "single_label", "text_pair": ["1989 年 11 月，德莱尼成为纽约证券交易所的一员，并担任 Henderson Brother,Inc. 和 Bear Wagner 的高级董事总经理。", "1989 年 11 月，德莱尼成为纽约证券交易所的会员，并担任 Henderson Brothers , Inc. 和 Bear Wagner 的高级董事。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-4231", "task": "single_label", "text_pair": ["该乐谱由作曲家威廉·怀特纳谱曲，并由堪萨斯城芭蕾舞团艺术总监莫里·叶斯顿编舞'；。", "由作曲家莫里·耶士顿配乐，威廉·怀特纳编舞，堪萨斯州城市芭蕾舞团进行艺术指导。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-4258", "task": "single_label", "text_pair": ["离开比利时后，他与澳大利亚的布里斯托尔市签订了三年合同，但由于签证问题不得不返回英国。", "离开比利时后，他与澳大利亚的布里斯托尔城足球俱乐部签约三年，但因工作签证问题不得不返回英格兰。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-4344", "task": "single_label", "text_pair": ["1960 年，他在这片大陆上重新开始，征战环法自行车赛。", "他于 1960 年再次在该大陆骑行并开始了环法自行车赛。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-4576", "task": "single_label", "text_pair": ["首先描述花粉量高的区域，而非花粉量低的区域。", "首先，描述具有高花粉价值而非低花粉价值的区域。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-4605", "task": "single_label", "text_pair": ["吉尔伯托 1987 年专辑“时光与潮汐”中的歌曲“阿斯特鲁德”是对 Basia Trzetrzelewska 的致敬。", "Basia Trzetrzelewska 1987 年专辑“时间与潮汐”中的歌曲“阿斯特鲁德”是对吉尔伯托的致敬。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-472", "task": "single_label", "text_pair": ["锡贝伯格称，这首歌是他在此专辑中的最爱，“因为它是如此纯粹，而又如此个人化。", "锡贝伯格称，这首歌是他在此专辑中的最爱，“因为它是如此纯粹，而又如此个人化。”"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-4796", "task": "single_label", "text_pair": ["1975 年 12 月，马尔科姆·弗雷泽在联邦大选中以压倒性优势击败惠特拉姆，他向埃格顿授予骑士称号以表彰其在工会运动中的贡献。", "在 1975 年 12 月的联邦选举中以压倒性优势击败马尔科姆·弗雷泽后，惠特兰授予埃格顿爵士头衔，以表彰他为工会运动提供的服务。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-488", "task": "single_label", "text_pair": ["1969 年 12 月，第 49 军师成为了第 29 军师。", "1969 年 12 月，第 49 军师第 29 军师成为。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-4940", "task": "single_label", "text_pair": ["其他困难还包括詹姆斯·纽顿·霍华德在电影上映前七周决定将负责电影配乐的霍华德·肖更换为彼得·杰克逊。", "其他困难包括，在影片变更前七周，詹姆斯·纽顿·霍华决定将作曲家从霍华德·肖替换为彼得·杰克逊。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-4983", "task": "single_label", "text_pair": ["“粉碎者”于 1987 年 6 月 13 日在日本发行，并由东宝株式会社出版。", "《粉碎者》于 1987 年 6 月 13 日在日本发布并由东宝发行。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-4990", "task": "single_label", "text_pair": ["于热于 1962 年出生于巴黎，他在智利和纽约生活与工作。", "惠更斯于 1962 年出生于巴黎，现在在智利和纽约生活与工作。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-4997", "task": "single_label", "text_pair": ["1924 年夏季，他前往阿肯色州南部的斯马科弗，在犹尼昂县附近诺夫利特的一间办公室从事繁荣的石油事业。", "1924 年夏天，他前往阿肯色州南部的尤宁县，在临近斯马科弗的诺夫利特的一间办公室内从事拦油栅工作。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-5074", "task": "single_label", "text_pair": ["桉树证券交易所俗称伯尔德岛 Marlock 或小桉树，是一种原产于西澳大利亚南部海岸的丛生树或小桉树。", "Eucalyptus conferruminata 通常称为巴尔德岛 matlock 或小橡胶树，它是在西澳大利亚州南海岸土生土长的矮树或小桉树。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-5176", "task": "single_label", "text_pair": ["继 1939 年纳粹德国和苏联入侵波兰后，Osterwa 便积极投身地下教育但同时也抱病在身。", "在纳粹德国和苏联于 1939 年入侵波兰后，欧斯特瓦便积极参与地下教育，但同时也染上疾病。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-5258", "task": "single_label", "text_pair": ["泰勒仍旧活跃于棒球界，直至去世前一直为亚特兰大勇士队、密尔瓦基队和芝加哥白袜队担任球探。", "泰勒生前仍然积极地担任芝加哥白袜队、密尔沃基棒球队和亚特兰大勇者队的球探。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-5327", "task": "single_label", "text_pair": ["詹姆斯敦风车是位于罗德岛詹姆斯墩北部北街上的一座八角型风车，坐落于风车山历史区内的威登大道上。", "詹姆斯敦风车是位于罗德岛詹姆斯敦的磨坊风车，位于 Weeden Lane 以北北路的风车山历史区内。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-5379", "task": "single_label", "text_pair": ["瑞士拓荒者约翰·萨特（1803 - 1880 年）与其他欧美裔移居者一起于 1839 年 8 月抵达加利福尼亚州阿尔塔。", "美国先驱者约翰·萨特（1803-1880 年）和其他欧洲瑞士定居者于 1839 年 8 月一起抵达上加利福尼亚。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-5418", "task": "single_label", "text_pair": ["大卫 I. 沃尔什最近的传记作者写到：“摧毁沃尔什的运动起了作用，因为他无法为自己辩护... 大卫 I· 沃尔什是同性恋。", "沃尔什最近的传记作者写道：“摧毁大卫·I·沃尔什的活动起了作用，因为他无法为自己辩护……大卫·I·沃尔什是同性恋者。”"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-5557", "task": "single_label", "text_pair": ["马莱特娶了玛丽·阿尔德沃斯，一直到 1664 年，她是伯克郡雷特康比·瑞吉斯的约翰·阿尔德沃斯的遗孀和法菲尔德伯克郡的托马斯·怀特的女儿。", "马利特娶了玛丽·奥德沃思，后者是伯克郡 Letcombe Regis 约翰·奥德沃思的遗孀，也是伯克郡 Fyfield 托马斯·怀特的女儿（1664 年之前）。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-5567", "task": "single_label", "text_pair": ["这些在英国很常见，但在欧洲比较少见，至少大型机车如此。", "这些在英国十分常见，但在欧洲，至少对于大型机车而言，它相对少见。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-5580", "task": "single_label", "text_pair": ["然而，为了击败斯洛伐克，德里克必须成为吸血鬼刺客。", "然而，为了打败 Slovak，德雷克必须成为吸血鬼。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-5761", "task": "single_label", "text_pair": ["同样值得注意的是，以下代码可在缺乏 ADL 时运行（任何情况下均适用）。", "还有一点值得注意的是，下列代码没有 ADL 也能运行（不论如何均可应用在它身上）。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-5779", "task": "single_label", "text_pair": ["Cast 主要从事另类音乐和独立音乐。", "演员主要关注独立音乐和另类音乐。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-5848", "task": "single_label", "text_pair": ["根据季节不同，北美洲的粉纹夜蛾种群会从加拿大迁徙至墨西哥。", "根据不同季节，北美的卷心菜群会从墨西哥迁移至加拿大。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-5850", "task": "single_label", "text_pair": ["《AleX》是一部意大利电视连续剧。该剧由乔尔乔·舍特勒尔、古列尔莫·杜科利和阿尔弗雷多·卡斯泰利制作，并由 Videotime 编剧。", "意大利电视连续剧《AleX》由希奥尔希奥·斯科特勒、古格列尔莫·杜科利和阿尔弗雷多·卡斯特里制作，并由 videotime 编剧。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-6015", "task": "single_label", "text_pair": ["北安普敦郡是北安普敦郡的一个县选区，代表英国议会的下议院。", "北安普敦郡是北安普敦郡北部的一个郡级选区，属于英国国会下议院。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-605", "task": "single_label", "text_pair": ["由于对亨利忠心耿耿，作为奖赏，他获得了南威尔士的许多土地和利润丰厚的店面。", "为了奖励他对亨利的忠诚，他在威尔士南部获得了大量土地和许多办事机构。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-6125", "task": "single_label", "text_pair": ["阿尔法罗是第三位被判处在毒气室接受死刑的妇女，而在判决她时，她是加利福尼亚州的第一位死囚妇女。", "阿尔法罗是毒气室中被处死的第三名女性，在宣判时，她是加州死刑犯中的第一位女性。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-6196", "task": "single_label", "text_pair": ["科尔内利乌斯·欧拉屯吉·阿德巴约是尼日利亚的前参议员，她成为州长，后来担任尼日利亚联邦交通部部长。", "Cornelius Olatunji Adebayo 是尼日利亚的前参议员，曾任州长，之后成为尼日利亚联邦通讯部部长。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-6209", "task": "single_label", "text_pair": ["他曾在意大利、俄罗斯、希腊、法国、印度尼西亚和希腊参加过职业比赛，并在波多黎各、葡萄牙和印度尼西亚获得过全国冠军。", "他作为专业运动员出战希腊、俄罗斯、意大利、法国、波多黎各、葡萄牙和印度尼西亚并在印度尼西亚和希腊夺得全国锦标赛冠军。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-6292", "task": "single_label", "text_pair": ["乐队中的歌手包括多萝西·克雷恩、沃特尔·康明斯、贝蒂·格里芬、杰瑞·朗的兄弟伯尼和斯科地·马尔什，后者后来与托米·多尔西一同演唱。", "乐队成员包括多萝西·克兰、杰瑞·朗、贝蒂·格里芬、伯尼的哥哥沃尔特·康明斯和斯科蒂·马什，后者后来与汤米·多尔西一起演唱。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-6293", "task": "single_label", "text_pair": ["不过，麦当娜、普林斯和迈克尔·杰克逊都对该专辑产生了影响。", "不过，迈克尔·杰克逊、普林斯和麦当娜都对该专辑产生了影响。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-6307", "task": "single_label", "text_pair": ["耶稣在鱼腹中度过了三日；约拿将在墓穴中度过三日。", "耶稣在鱼腹中度过了三日，而约拿会在墓穴中度过三日。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-6494", "task": "single_label", "text_pair": ["平均而言，7 月最热，而 1 月最冷。", "七月是平均最冷的月份，最热的月份则是一月。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-6520", "task": "single_label", "text_pair": ["Abu Halifa 或 Abu Hulayfah 或 Abu Huleifa 或 Abu Haleifah 是位于科威特埃尔艾哈迈德省 Abu Halifa 区南部的一个小镇。", "Abu Halifa (或 Abu Hulayfah 或 Abu Huleifa 或 Abu Haleifah 是位于科威特南部埃尔艾哈迈德省 Abu Halifa 的一个小镇。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-6633", "task": "single_label", "text_pair": ["1937 年，赫胥黎及其妻子玛利亚、儿子马修·赫胥黎和男朋友杰拉德·赫德搬到好莱坞。", "1937 年，杰拉尔德·赫德与妻子玛丽亚、儿子赫胥黎以及好友马修·赫胥黎一道搬至好莱坞。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-6820", "task": "single_label", "text_pair": ["在职业生涯的早期，他曾在苏格兰踢球，但后来移居澳大利亚，在维多利亚州国家联盟中为弗兰克斯顿市效力。", "他在职业生涯早期曾在苏格兰打比赛，但后来移居澳大利亚，在维多利亚州联赛中为弗兰克斯顿市效力。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-6912", "task": "single_label", "text_pair": ["它是通过 1972 年的再分配建立的，取代了废除的图文巴东。", "继 1972 年重新分配后，它被废除，并取代了所建立的图文巴东。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-692", "task": "single_label", "text_pair": ["1291 年，Mahaut 与勃艮第伯爵奥托四世结婚，后者是三个孩子的母亲，其中有两个女孩嫁给法国国王。", "1291 年，Mahaut 与奥托四世勃艮第伯爵结婚。她成为三个孩子的母亲，其中有两个女孩都嫁给了法国国王。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-6934", "task": "single_label", "text_pair": ["“静止”光在电磁诱导透明介质情境中是指光子到相干系统的“量子”往返传输。", "“静止”光在电磁诱导透明介质情境中是指光子到相干系统的“量子”往返传输。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-6943", "task": "single_label", "text_pair": ["巨人队以 21 比 27 的比分输给芝加哥熊队，并且是自 1976 年以来第一次打出 0 比 6 的比分。", "巨人队以 21 比 27 的比分输给芝加哥熊队，并且是自 1976 年以来第一次打出 0 比 6 的比分。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-7", "task": "single_label", "text_pair": ["Timora diarhoda 是夜蛾科的一种蛾类。它被发现于非洲，包括南非。", "Diarhoda 是夜蛾科的一种蛾类。它被发现于南非，包括非洲。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-7014", "task": "single_label", "text_pair": ["然后他搬去了瑞士，之后又去了意大利，在那里他遇到了雪莱和拜伦。", "然后他搬到瑞士，后来搬到意大利，他在那里遇见了雪莱和拜伦。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-7081", "task": "single_label", "text_pair": ["1977 年，罗布·泰勒前往苏格兰和挪威与巴伯攀登瀑布。", "1977 年，巴尔伯于罗勃·泰勒一起前往苏格兰和挪威以攀登瀑布。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-731", "task": "single_label", "text_pair": ["在阿尔卡莫，12 节诗以此方式交替呈现：一节唱，另一节说。", "在阿尔卡莫，十二行诗以这种方式吟诵：一行交替，另一行说出。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-7472", "task": "single_label", "text_pair": ["麦克米伦在位于蒂德沃思的皇家医疗队工作了两年，之后在迪德科特工作，在那里他负责为在朝鲜战争中受伤的士兵做磁共振波谱分析。", "麦克米伦在位于蒂德沃思的皇家医疗队工作了两年，之后在迪德科特工作，在那里他为在朝鲜战争中受伤的士兵做磁共振波谱分析。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-7486", "task": "single_label", "text_pair": ["目前仍有两个只有少数成员的独立联赛：格兰偏联盟联赛和高地联盟联赛。", "还有两个成员很少的小规模独立联赛：格兰坪联盟联赛和高地联盟联赛。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-7515", "task": "single_label", "text_pair": ["赫克托博士、寇迪和克里斯蒂找到了将佛利斯特扣为人质的克里斯蒂博士。", "赫克托、科迪和克里斯蒂找到将福里斯特扣押为人质的克里斯蒂博士。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-7538", "task": "single_label", "text_pair": ["两架于 1934 年制造，但没有再飞行。", "有两架飞机在 1934 年投入使用，但之后停产。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-77", "task": "single_label", "text_pair": ["在 1968 年的历史性伍斯特大道暴乱中，种族性的橡胶碗体育馆被美国国民警卫队用作基地。", "历史悠久的橡胶碗曾在 1968 年种族主义伍斯特大街暴动中作为美国国民警卫队的基地。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-7711", "task": "single_label", "text_pair": ["妮科尔 妮科尔·普拉特以 6 - 4 和 6 - 3 击败了克丽斯廷·戈德里奇", "克莉丝汀·戈德里奇以 6-4 和 6-3 击败妮科尔·普拉特。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-7769", "task": "single_label", "text_pair": ["调节鹿群数量的另一条途径是控制出生率。", "调控鹿的数量的另一个方法是控制生育率。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-7781", "task": "single_label", "text_pair": ["他迎娶了玛丽·玛格达莱妮·施韦高，她是泰勒夫·达尔·施韦高的女儿，资深政治家安东·马丁·施韦高的侄女，也是后来的总理克里斯蒂安·霍曼·施韦高的姑姑。", "他娶了玛丽·玛格达莱妮·施伟高，她是泰勒夫·达尔·施伟高的女儿，政界要员克里斯汀·霍楠·施伟高的侄女，之后担任首相的安东·马丁·施伟高的姑母。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-7869", "task": "single_label", "text_pair": ["麦迪逊区公立学校是为密歇根州麦迪逊高地南端大底特律区服务的学区。", "麦迪逊区公立学校学区是服务于密歇根州麦迪逊海茨大底特律南部的学区。"], "target": {"label": 0}}
+{"item_id": "paws-zh-validation-7961", "task": "single_label", "text_pair": ["由于维尼·提斯塔维德被视为先发球员，佐拉克与雷·卢卡斯竞争替补球员机会。", "由于维尼·提斯塔维德是先发球员，佐拉克与瑞伊·卢卡争夺替补位。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-862", "task": "single_label", "text_pair": ["在这一季的前几集中，他与尼克、杰里米、麦克雷和霍华德都是“搬家公司”联盟的成员。", "季初，他与尼克、杰里米、麦克雷和霍华德共同组成了“搬家公司”联盟。"], "target": {"label": 1}}
+{"item_id": "paws-zh-validation-984", "task": "single_label", "text_pair": ["他的父亲在他年少时去世了，他的母亲塞缪尔·亚当斯于 1842 年嫁给凯瑟琳·A·费根，后者在两年后成为阿肯色州州长。", "他的父亲在他年少时去世了，而他的母亲凯瑟琳·A·费根于 1842 年嫁给塞缪尔·亚当斯， 后者在两年后成为阿肯色州州长。"], "target": {"label": 0}}

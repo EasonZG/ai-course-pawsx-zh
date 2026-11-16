@@ -1,0 +1,114 @@
+{
+  "accuracy": 0.5683646112600537,
+  "macro_f1": 0.3623931623931624,
+  "per_label": {
+    "different": {
+      "precision": 0.5683646112600537,
+      "recall": 1.0,
+      "f1": 0.7247863247863248,
+      "support": 424
+    },
+    "paraphrase": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 322
+    }
+  },
+  "confusion": {
+    "rows_gold_cols_pred": [
+      [
+        424,
+        0
+      ],
+      [
+        322,
+        0
+      ]
+    ],
+    "row_order": [
+      "different",
+      "paraphrase"
+    ],
+    "col_order": [
+      "different",
+      "paraphrase"
+    ]
+  },
+  "split": "holdout746.jsonl",
+  "n": 746,
+  "covered": 746,
+  "coverage": 1.0,
+  "missing": 0,
+  "duplicate_ids": 0,
+  "invalid_or_duplicate": 0,
+  "valid_output_rate": 1.0,
+  "accuracy_ci95": [
+    0.5335120643431636,
+    0.6032171581769437
+  ],
+  "platform_scoring": {
+    "total": 746,
+    "prediction_records": 746,
+    "missing": 0,
+    "duplicate_ids": 0,
+    "unknown_records": 0,
+    "accuracy": 0.5683646112600537,
+    "macro_f1": 0.3623931623931624,
+    "valid_output_count": 746,
+    "valid_output_rate": 1.0
+  },
+  "pass_gate_0.6675": false,
+  "errors": [
+    {
+      "item_id": "paws-zh-validation-102",
+      "gold": 1,
+      "pred": 0,
+      "text_pair": [
+        "鲍勃和泰德是兄弟。泰德是约翰的儿子。",
+        "鲍伯和泰德是兄弟，泰德是约翰的儿子。"
+      ],
+      "status": "ok"
+    },
+    {
+      "item_id": "paws-zh-validation-1021",
+      "gold": 1,
+      "pred": 0,
+      "text_pair": [
+        "它被发现于印度尼西亚的萨拉瓦蒂岛和印度尼西亚巴布亚省的鸟警察半岛。",
+        "它被发现于印度尼西亚的萨拉瓦蒂岛，以及印度尼西亚巴布亚省的多贝拉伊半岛。"
+      ],
+      "status": "ok"
+    },
+    {
+      "item_id": "paws-zh-validation-1059",
+      "gold": 1,
+      "pred": 0,
+      "text_pair": [
+        "1971 年 4 月 1 日她被海军舰艇登记册除名，并于同年饱经风霜。",
+        "1971 年 4 月 1 日，它从海军舰艇登记册中除名，并在同年遭受攻击。"
+      ],
+      "status": "ok"
+    },
+    {
+      "item_id": "paws-zh-validation-1080",
+      "gold": 1,
+      "pred": 0,
+      "text_pair": [
+        "叠氮化银仍然很少使用，但有时是因为其价格高昂。",
+        "有时仍会使用叠氮化银，但由于其价格高昂，这种情况非常罕见。"
+      ],
+      "status": "ok"
+    },
+    {
+      "item_id": "paws-zh-validation-109",
+      "gold": 1,
+      "pred": 0,
+      "text_pair": [
+        "它在 2011 年 12 月 22 日发行并在 2012 年 2 月揭晓。",
+        "它于 2011 年 12 月 22 日出版并于 2012 年 2 月公布。"
+      ],
+      "status": "ok"
+    }
+  ]
+}

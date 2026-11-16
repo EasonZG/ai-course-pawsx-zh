@@ -1,0 +1,22 @@
+2026-11-16 21:59:47,524 INFO M3 传统方法训练开始
+2026-11-16 21:59:47,524 INFO train=D:\homeworks\人工智能\实验\第三周\M3_提交包\data\train.jsonl
+2026-11-16 21:59:47,524 INFO dev=D:\homeworks\人工智能\实验\第三周\M3_提交包\data\splits\dev1200.jsonl（只用于选模，不读 holdout）
+2026-11-16 21:59:47,524 INFO out_dir=D:\homeworks\人工智能\实验\第三周\M3_提交包\models\trad runs_dir=D:\homeworks\人工智能\实验\第三周\M3_提交包\runs\m3
+2026-11-16 21:59:47,875 INFO 数据：train 44898 条，dev 1200 条；train 标签 {0: 24409, 1: 20489}
+2026-11-16 21:59:47,880 INFO 采样规则：全量 train.jsonl，未采样
+2026-11-16 21:59:48,056 INFO 环境：Python 3.10.11；CPU 13th Gen Intel(R) Core(TM) i5-13500H；GPU {'nvidia_smi_found': False, 'cuda_gpu': False, 'reason': 'nvidia-smi 不在 PATH（本机无 NVIDIA 驱动/GPU，或未安装驱动）'}
+2026-11-16 22:00:03,388 INFO 词表拟合完成：200000 个字符 n-gram，用时 15.33s
+2026-11-16 22:00:35,671 INFO 特征矩阵：train shape=(44898, 800032) nnz=20284737；dev shape=(1200, 800032) nnz=405082；构造 31.37s + 0.88s
+2026-11-16 22:00:35,715 INFO 候选 c1_alpha1e-5_none：alpha=1e-05 class_weight=None
+2026-11-16 22:00:42,171 INFO 候选 c1_alpha1e-5_none 完成：dev acc=0.6783 macro-F1=0.6669 logloss=0.7984，用时 6.4s
+2026-11-16 22:00:42,202 INFO 候选 c2_alpha1e-5_balanced：alpha=1e-05 class_weight=balanced
+2026-11-16 22:00:48,563 INFO 候选 c2_alpha1e-5_balanced 完成：dev acc=0.6733 macro-F1=0.6634 logloss=0.8002，用时 6.3s
+2026-11-16 22:00:48,703 INFO 候选 c3_alpha1e-4_none：alpha=0.0001 class_weight=None
+2026-11-16 22:00:55,162 INFO 候选 c3_alpha1e-4_none 完成：dev acc=0.7042 macro-F1=0.6834 logloss=0.6300，用时 6.4s
+2026-11-16 22:00:55,191 INFO 候选 c4_alpha1e-4_balanced：alpha=0.0001 class_weight=balanced
+2026-11-16 22:01:01,491 INFO 候选 c4_alpha1e-4_balanced 完成：dev acc=0.6983 macro-F1=0.6827 logloss=0.6241，用时 6.3s
+2026-11-16 22:01:01,658 INFO 选模：按 dev accuracy 降序、macro-F1 降序、配置顺序兜底；选中 c3_alpha1e-4_none
+2026-11-16 22:01:01,659 INFO 选中配置 dev：accuracy=0.7042 macro-F1=0.6834
+2026-11-16 22:01:01,705 INFO sklearn 侧 dev 预测已保存：D:\homeworks\人工智能\实验\第三周\M3_提交包\runs\m3\dev1200_sklearn_predictions.jsonl
+2026-11-16 22:01:02,199 INFO 模型导出：D:\homeworks\人工智能\实验\第三周\M3_提交包\models\trad（800032 维，200000 词表，sha256=cfc63cc173c802e06a1acea66b0dd2917c55efe9a2b7aca0d1e46f5228ad7823）
+2026-11-16 22:01:02,266 INFO selection.json 已写入；holdout746 未读取。总用时 74.7s

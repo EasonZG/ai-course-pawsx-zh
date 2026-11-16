@@ -1,0 +1,82 @@
+{
+  "events": [
+    {
+      "at": "2026-11-16T21:59:47.523+08:00",
+      "event": "train_start",
+      "train": "D:\\homeworks\\人工智能\\实验\\第三周\\M3_提交包\\data\\train.jsonl",
+      "dev": "D:\\homeworks\\人工智能\\实验\\第三周\\M3_提交包\\data\\splits\\dev1200.jsonl",
+      "seed": 0
+    },
+    {
+      "at": "2026-11-16T22:00:03.411+08:00",
+      "event": "vectorizer_fit",
+      "vocab_size": 200000,
+      "seconds": 15.332
+    },
+    {
+      "at": "2026-11-16T22:00:35.702+08:00",
+      "event": "matrix_built",
+      "train_shape": [
+        44898,
+        800032
+      ],
+      "train_nnz": 20284737,
+      "dev_shape": [
+        1200,
+        800032
+      ],
+      "dev_nnz": 405082,
+      "seconds": 32.25
+    },
+    {
+      "at": "2026-11-16T22:00:42.197+08:00",
+      "event": "candidate_fit",
+      "candidate": "c1_alpha1e-5_none",
+      "dev_accuracy": 0.6783333333333333,
+      "dev_macro_f1": 0.6669341547807028,
+      "seconds": 6.432
+    },
+    {
+      "at": "2026-11-16T22:00:48.590+08:00",
+      "event": "candidate_fit",
+      "candidate": "c2_alpha1e-5_balanced",
+      "dev_accuracy": 0.6733333333333333,
+      "dev_macro_f1": 0.6634143409532587,
+      "seconds": 6.336
+    },
+    {
+      "at": "2026-11-16T22:00:55.183+08:00",
+      "event": "candidate_fit",
+      "candidate": "c3_alpha1e-4_none",
+      "dev_accuracy": 0.7041666666666667,
+      "dev_macro_f1": 0.6834481267336974,
+      "seconds": 6.431
+    },
+    {
+      "at": "2026-11-16T22:01:01.514+08:00",
+      "event": "candidate_fit",
+      "candidate": "c4_alpha1e-4_balanced",
+      "dev_accuracy": 0.6983333333333334,
+      "dev_macro_f1": 0.6827446386473119,
+      "seconds": 6.274
+    },
+    {
+      "at": "2026-11-16T22:01:02.226+08:00",
+      "event": "model_exported",
+      "model_dir": "D:\\homeworks\\人工智能\\实验\\第三周\\M3_提交包\\models\\trad",
+      "model_sha256": "cfc63cc173c802e06a1acea66b0dd2917c55efe9a2b7aca0d1e46f5228ad7823",
+      "n_features": 800032
+    },
+    {
+      "at": "2026-11-16T22:01:02.257+08:00",
+      "event": "selection_written",
+      "selected": "c3_alpha1e-4_none",
+      "model_sha256": "cfc63cc173c802e06a1acea66b0dd2917c55efe9a2b7aca0d1e46f5228ad7823"
+    },
+    {
+      "at": "2026-11-16T22:01:02.291+08:00",
+      "event": "train_end",
+      "total_seconds": 74.744
+    }
+  ]
+}

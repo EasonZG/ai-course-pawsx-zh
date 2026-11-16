@@ -1,0 +1,1 @@
+D:\homeworks\人工智能\实验\第三周\.venv-m3\Scripts\python.exe D:\homeworks\人工智能\实验\第三周\M3_提交包\oj\train_trad.py --epochs 30 --max-features 200000 --min-df 2 --seed 0

@@ -1,0 +1,82 @@
+# ============================================================
+# T4-PAR 中文改写语义一致性 · 根目录忽略规则
+# 只忽略环境、缓存、密钥和临时文件。
+# 课程数据、docx/pptx/pdf/zip、模型、runs、GPU 交接包和
+# 第三周/M3_提交包（旧 CPU 中间副本）均保留入库。
+# ============================================================
+
+# ---------- Python 虚拟环境 ----------
+.venv*/
+venv/
+env/
+ENV/
+virtualenv/
+pyvenv.cfg
+
+# ---------- Python 缓存 ----------
+__pycache__/
+*.pyc
+*.pyo
+*$py.class
+
+# ---------- 测试 / 类型检查 / 工具缓存 ----------
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.ipynb_checkpoints/
+.cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# ---------- 本地环境变量与密钥 ----------
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+*.ppk
+.netrc
+.npmrc
+.pypirc
+.aws/
+.gcloud/
+credentials.json
+secrets.json
+service-account*.json
+
+# ---------- 编辑器与系统临时文件 ----------
+~$*
+*.swp
+*.swo
+*~
+.#*
+\#*#
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 本地工作目录与下载缓存 ----------
+第三周/work/
+*.part
+*.crdownload
+**/huggingface/
+**/hf_cache/
+**/torch_cache/
+**/pip-cache/

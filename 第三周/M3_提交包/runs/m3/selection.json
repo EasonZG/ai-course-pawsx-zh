@@ -1,0 +1,175 @@
+{
+  "schema": "m3.trad.selection/1",
+  "selected_at": "2026-11-16T22:01:02.233+08:00",
+  "selection_rule": "dev1200 accuracy 降序，macro-F1 降序，配置顺序（c1→c4）兜底",
+  "selected_config": {
+    "order": 2,
+    "name": "c3_alpha1e-4_none",
+    "alpha": 0.0001,
+    "class_weight": null
+  },
+  "dev_metrics": {
+    "accuracy": 0.7041666666666667,
+    "macro_f1": 0.6834481267336974,
+    "per_label": {
+      "different": {
+        "precision": 0.6973365617433414,
+        "recall": 0.8458149779735683,
+        "f1": 0.7644326476443265,
+        "support": 681
+      },
+      "paraphrase": {
+        "precision": 0.7192513368983957,
+        "recall": 0.5183044315992292,
+        "f1": 0.6024636058230683,
+        "support": 519
+      }
+    },
+    "confusion": {
+      "rows_gold_cols_pred": [
+        [
+          576,
+          105
+        ],
+        [
+          250,
+          269
+        ]
+      ],
+      "row_order": [
+        "different",
+        "paraphrase"
+      ],
+      "col_order": [
+        "different",
+        "paraphrase"
+      ]
+    },
+    "n": 1200,
+    "log_loss": 0.6300213688699853,
+    "candidate": "c3_alpha1e-4_none",
+    "order": 2,
+    "alpha": 0.0001,
+    "class_weight": null,
+    "epochs": 30,
+    "fit_seconds": 6.431,
+    "n_iter": 30,
+    "coef_l2": 27.546903224436758,
+    "intercept": -0.3032863746653536,
+    "train_rows": 44898,
+    "n_features": 800032,
+    "train_nnz": 20284737
+  },
+  "candidates": [
+    {
+      "candidate": "c1_alpha1e-5_none",
+      "order": 0,
+      "alpha": 1e-05,
+      "class_weight": null,
+      "accuracy": 0.6783333333333333,
+      "macro_f1": 0.6669341547807028,
+      "log_loss": 0.7983930961053396,
+      "fit_seconds": 6.432,
+      "n_iter": 30,
+      "coef_l2": 149.5999788542132
+    },
+    {
+      "candidate": "c2_alpha1e-5_balanced",
+      "order": 1,
+      "alpha": 1e-05,
+      "class_weight": "balanced",
+      "accuracy": 0.6733333333333333,
+      "macro_f1": 0.6634143409532587,
+      "log_loss": 0.8002111022800623,
+      "fit_seconds": 6.336,
+      "n_iter": 30,
+      "coef_l2": 150.78907852558638
+    },
+    {
+      "candidate": "c3_alpha1e-4_none",
+      "order": 2,
+      "alpha": 0.0001,
+      "class_weight": null,
+      "accuracy": 0.7041666666666667,
+      "macro_f1": 0.6834481267336974,
+      "log_loss": 0.6300213688699853,
+      "fit_seconds": 6.431,
+      "n_iter": 30,
+      "coef_l2": 27.546903224436758
+    },
+    {
+      "candidate": "c4_alpha1e-4_balanced",
+      "order": 3,
+      "alpha": 0.0001,
+      "class_weight": "balanced",
+      "accuracy": 0.6983333333333334,
+      "macro_f1": 0.6827446386473119,
+      "log_loss": 0.624129989217897,
+      "fit_seconds": 6.274,
+      "n_iter": 30,
+      "coef_l2": 27.784212799005974
+    }
+  ],
+  "model": {
+    "dir": "models/trad",
+    "n_features": 800032,
+    "vocab_size": 200000,
+    "n_numeric": 32,
+    "model_sha256": "cfc63cc173c802e06a1acea66b0dd2917c55efe9a2b7aca0d1e46f5228ad7823",
+    "files": {
+      "vocab.json": "a64c00fb1741abe98e77ecb6588bd50dbbab2cf2c6b64520f50f4a2c635d968a",
+      "idf.bin": "880e8b8e530b0a33ca1d5f757929702a056ea80bb6b0463da041a92af87688ff",
+      "coef.bin": "a0e281d6e7fb9d52f2ced8933976e4a45b8b661582241787a2374b37f6febc00"
+    }
+  },
+  "data": {
+    "train": {
+      "path": "data/train.jsonl",
+      "n": 44898,
+      "sha256": "e8b99ef73106d273f1ff7cbd7af7400f08c1ac0118fd73be2ed17c6a2708f105"
+    },
+    "dev": {
+      "path": "data/splits/dev1200.jsonl",
+      "n": 1200,
+      "sha256": "2357da1e081c873235fe195db66170a8b1236413431e1ad88e85aaacc9d52729"
+    },
+    "sampling_rule": "全量 train.jsonl，未采样"
+  },
+  "timings": {
+    "vectorizer_seconds": 15.332,
+    "feature_build_seconds": 31.367,
+    "dev_feature_build_seconds": 0.883,
+    "candidate_fit_seconds": {
+      "c1_alpha1e-5_none": 6.432,
+      "c2_alpha1e-5_balanced": 6.336,
+      "c3_alpha1e-4_none": 6.431,
+      "c4_alpha1e-4_balanced": 6.274
+    },
+    "total_train_seconds": 74.214
+  },
+  "environment": {
+    "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "cpu_name": "13th Gen Intel(R) Core(TM) i5-13500H",
+    "cpu_count": 16,
+    "memory_gb": 34.07,
+    "gpu": {
+      "nvidia_smi_found": false,
+      "cuda_gpu": false,
+      "reason": "nvidia-smi 不在 PATH（本机无 NVIDIA 驱动/GPU，或未安装驱动）"
+    },
+    "packages": {
+      "numpy": "2.2.6",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.5.2",
+      "joblib": "1.4.2",
+      "torch": null,
+      "transformers": null,
+      "tokenizers": null,
+      "python-docx": null
+    },
+    "torch_cuda_available": false
+  },
+  "holdout_evaluated": false,
+  "note": "selection.json 写入后模型不再改动；holdout746 由 eval_holdout_m3.py 只评一次。"
+}

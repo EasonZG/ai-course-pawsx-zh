@@ -1,0 +1,29 @@
+{
+  "collected_at": "2026-11-16T21:59:47+08:00",
+  "python": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+  "python_executable": "D:\\homeworks\\人工智能\\实验\\第三周\\.venv-m3\\Scripts\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "machine": "",
+  "processor": "",
+  "cpu_name": "13th Gen Intel(R) Core(TM) i5-13500H",
+  "cpu_count": 16,
+  "memory_gb": 34.07,
+  "cwd": "D:\\homeworks\\人工智能\\实验\\第三周\\M3_提交包",
+  "gpu": {
+    "nvidia_smi_found": false,
+    "cuda_gpu": false,
+    "reason": "nvidia-smi 不在 PATH（本机无 NVIDIA 驱动/GPU，或未安装驱动）"
+  },
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "scikit-learn": "1.5.2",
+    "joblib": "1.4.2",
+    "torch": null,
+    "transformers": null,
+    "tokenizers": null,
+    "python-docx": null
+  },
+  "torch_cuda_available": false,
+  "torch_import_error": "ModuleNotFoundError(\"No module named 'torch'\")"
+}

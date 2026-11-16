@@ -1,0 +1,41 @@
+{
+  "schema": "pawsx-zh.benchmark-freeze/1",
+  "dataset": "pawsx_zh",
+  "dataset_version": "course-v1-20261028",
+  "module": "M2 数据与基准",
+  "task_id": "T4-PAR-⑩ 中文改写语义一致性核查系统",
+  "group": "赵国（队长）、钟承轩、李洋",
+  "frozen_at": "2026-11-09T14:44:05+08:00",
+  "seed": 0,
+  "split": {
+    "dev": "data/splits/dev1200.jsonl（1200 条，含 dev100）",
+    "holdout": "data/splits/holdout746.jsonl（746 条，开发期不用）",
+    "platform_test": "test 400（平台冻结，本地无标签）",
+    "compare": "compare50（平台三轨横比，本地无标签）"
+  },
+  "statement": [
+    "dev1200 与 holdout746 互斥且覆盖 validation 全部 1946 条。",
+    "holdout746 不参与阈值、早停、提示词或超参数选择。",
+    "test_inputs 与 compare50 的标签不使用、不推断、不进入训练或提示词。",
+    "本文件记录后，划分与判分规则不再改动；若要改，必须升版本并重跑全部实验。"
+  ],
+  "sha256": {
+    "data/train.jsonl": "e8b99ef73106d273f1ff7cbd7af7400f08c1ac0118fd73be2ed17c6a2708f105",
+    "data/validation.jsonl": "2178383df9239baffc2be29d911f806008cc71e418c3f6cf16c0844fdaf8506a",
+    "data/dev100.jsonl": "00708c6fbe42bf599671da16c9ad0836cbeef1c58ac54984558449945235569b",
+    "data/test_inputs.jsonl": "bce101deff1e5c0afc91fd43f2214131c5e375add6c8c1f8eedf841417f32a2e",
+    "data/compare50.jsonl": "be16b7511e686fd35a9576115b6d0977bc8d055abe5b9e1f60733fcc9ee4e3ba",
+    "data/splits/dev1200.jsonl": "2357da1e081c873235fe195db66170a8b1236413431e1ad88e85aaacc9d52729",
+    "data/splits/holdout746.jsonl": "ff32339837554441a7c2871bb7ba40a9ab82eaee661413d4e5ca534412058276",
+    "data/splits/split_manifest.json": "863f833787ec0ac87f8478f55084989533bc33c90a2b473d7a524fa18fc372ec",
+    "data/scoring_rules.json": "ac169d5d4c9900654c8e8e05619ba4e882269faff83d56a31b48aa9d940b3183",
+    "oj/analyze_benchmark.py": "c48af03f5c2bea716c856903f18a32459143a731b6bfd890d56bd7d33ae257fa",
+    "oj/make_split.py": "f2fa12c3b59550bf3f7686d1d2780adf56bb40b4fef11ebdbede5eff2e6301ad",
+    "oj/eval_split.py": "214741422267de839041e0d637bf994f0433c5c82029dbccc13e66c8b3d5342c",
+    "oj/run.py": "0dad142e4ba028f0ae61243fb18d75991918ba751e3ac55bd202b8d67f383f18",
+    "oj/scoring.py": "d70674a0a6606a4e7d14121b48e6d40a5ddf55b5d3dfdb4dacdc3763429e4739",
+    "oj/selfcheck.py": "05f03846577aebbc342ce1a480ec654cd9e0b3b455420b916efae12d3db494f5",
+    "oj/test_scoring_rules.py": "c4a4af7b72a1e88419d0302c3126f3ce71baa20cd425dccb3f1a693be9222067",
+    "oj/check_benchmark.py": "bc6a4d8d6e7dd6c7954e8a4a3e0f750664d2271caba1f537218180a17813f6eb"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "accuracy": 0.7041666666666667,
+  "macro_f1": 0.6834481267336974,
+  "per_label": {
+    "different": {
+      "precision": 0.6973365617433414,
+      "recall": 0.8458149779735683,
+      "f1": 0.7644326476443265,
+      "support": 681
+    },
+    "paraphrase": {
+      "precision": 0.7192513368983957,
+      "recall": 0.5183044315992292,
+      "f1": 0.6024636058230683,
+      "support": 519
+    }
+  },
+  "confusion": {
+    "rows_gold_cols_pred": [
+      [
+        576,
+        105
+      ],
+      [
+        250,
+        269
+      ]
+    ],
+    "row_order": [
+      "different",
+      "paraphrase"
+    ],
+    "col_order": [
+      "different",
+      "paraphrase"
+    ]
+  },
+  "split": "dev1200.jsonl",
+  "n": 1200,
+  "covered": 1200,
+  "coverage": 1.0,
+  "missing": 0,
+  "duplicate_ids": 0,
+  "invalid_or_duplicate": 0,
+  "valid_output_rate": 1.0,
+  "accuracy_ci95": [
+    0.6816666666666666,
+    0.7291666666666666
+  ],
+  "platform_scoring": {
+    "total": 1200,
+    "prediction_records": 1200,
+    "missing": 0,
+    "duplicate_ids": 0,
+    "unknown_records": 0,
+    "accuracy": 0.7041666666666667,
+    "macro_f1": 0.6834481267336974,
+    "valid_output_count": 1200,
+    "valid_output_rate": 1.0
+  },
+  "pass_gate_0.6675": true,
+  "errors": [
+    {
+      "item_id": "paws-zh-validation-1017",
+      "gold": 1,
+      "pred": 0,
+      "text_pair": [
+        "这些在英国很罕见，但是在欧洲相对常见，至少对大型铁路机车来说是如此。",
+        "至少对于大型机车而言，这些在英国较为稀有，但在欧洲却相对常见。"
+      ],
+      "status": "ok"
+    },
+    {
+      "item_id": "paws-zh-validation-1026",
+      "gold": 1,
+      "pred": 0,
+      "text_pair": [
+        "这是一系列针对声音制作、算法作曲和声音合成而进行了优化的编程语言。",
+        "此列表中的编程语言针对声音制作、算法作曲和声音合成进行了优化。"
+      ],
+      "status": "ok"
+    },
+    {
+      "item_id": "paws-zh-validation-1063",
+      "gold": 1,
+      "pred": 0,
+      "text_pair": [
+        "伯恩出生于德国，他的父母是犹太人，是马克斯·伯恩和科学家海德薇格·埃伦伯格的儿子。",
+        "出生于德国，父母均为犹太人，是马克思·玻恩和科学家海德薇·埃伦伯格之子。"
+      ],
+      "status": "ok"
+    },
+    {
+      "item_id": "paws-zh-validation-1081",
+      "gold": 1,
+      "pred": 0,
+      "text_pair": [
+        "在 1999 年和 2003 年，他搭档 Jarno Jokihaara 和马科·里托拉成为了一名室内锦标赛冠军，2003 年，他成为了芬兰冠军。",
+        "他在 1999 年和 2003 年成为室内比赛冠军，对战雅诺·乔基哈拉和马可·里托拉。他还在 2003 年成为芬兰冠军。"
+      ],
+      "status": "ok"
+    },
+    {
+      "item_id": "paws-zh-validation-1100",
+      "gold": 1,
+      "pred": 0,
+      "text_pair": [
+        "这些歌曲由托米·李制作，并由迈克尔·拜因霍恩担任鼓手。",
+        "这些歌曲由汤米·李和鼓手迈克尔·拜因霍恩制作。"
+      ],
+      "status": "ok"
+    }
+  ]
+}
